@@ -1,0 +1,6 @@
+{
+  "Port": "COM7",
+  "BaudRate": 115200,
+  "Parity": "Odd",
+  "StopBits": "One"
+}

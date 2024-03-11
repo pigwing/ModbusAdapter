@@ -1,0 +1,61 @@
+{
+  "Ip": "0.0.0.0",
+  "Port": 502,
+  "Stations": [ 0, 1, 2, 3, 4, 5 ],
+  "ReadBuffs": [
+    {
+      "Function": "Coil",
+      "Station": 1,
+      "StartAddress": 0,
+      "Length": 100
+    },
+    {
+      "Function": "Coil",
+      "Station": 1,
+      "StartAddress": 100,
+      "Length": 100
+    },
+    {
+      "Function": "Coil",
+      "Station": 1,
+      "StartAddress": 4000,
+      "Length": 100
+    },
+    {
+      "Function": "Coil",
+      "Station": 1,
+      "StartAddress": 5000,
+      "Length": 100
+    },
+    {
+      "Function": "HoldingRegister",
+      "Station": 1,
+      "StartAddress": 0,
+      "Length": 100
+    },
+    {
+      "Function": "HoldingRegister",
+      "Station": 1,
+      "StartAddress": 100,
+      "Length": 100
+    },
+    {
+      "Function": "HoldingRegister",
+      "Station": 1,
+      "StartAddress": 5000,
+      "Length": 100
+    },
+    {
+      "Function": "HoldingRegister",
+      "Station": 1,
+      "StartAddress": 6000,
+      "Length": 100
+    },
+    {
+      "Function": "HoldingRegister",
+      "Station": 1,
+      "StartAddress": 7000,
+      "Length": 100
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputType>Exe</OutputType>
+        <NoWarn>CS1591;CA2016</NoWarn>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DotNext.Threading" Version="5.2.0" />
+        <PackageReference Include="FastEndpoints" Version="5.23.0" />
+        <PackageReference Include="FastEndpoints.Security" Version="5.23.0" />
+        <PackageReference Include="FastEndpoints.Swagger" Version="5.23.0" />
+        <PackageReference Include="FluentModbus" Version="5.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="configuration\server.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="configuration\modbus-serialport.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ProjectExtensions><VisualStudio><UserProperties configuration_4modbus-serialport_1json__JsonSchema="https://json.schemastore.org/appsettings.json" /></VisualStudio></ProjectExtensions>
+
+</Project>
